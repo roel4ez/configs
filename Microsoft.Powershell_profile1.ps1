@@ -3,12 +3,9 @@
 ### UI
 Import-Module -Name Terminal-Icons
 
-#oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/M365Princess-kube.omp.json | Invoke-Expression
-#oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/M365Princess-python.omp.json | Invoke-Expression
-oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/craver.omp.json | Invoke-Expression
-#oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/default.omp.json | Invoke-Expression
-#oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/atomic.omp.json | Invoke-Expression
-#oh-my-posh --init --shell pwsh --config C:\Users\rofaucon\AppData\Local\Programs\oh-my-posh\themes/blueish.omp.json | Invoke-Expression
+#oh-my-posh --init --shell pwsh --config %LocalAppData%\Programs\oh-my-posh\themes/M365Princess-kube.omp.json | Invoke-Expression
+#oh-my-posh --init --shell pwsh --config %LocalAppData%\Programs\oh-my-posh\themes/M365Princess-python.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config %LocalAppData%\Programs\oh-my-posh\themes/craver.omp.json | Invoke-Expression
 Import-Module posh-git
 $env:POSH_GIT_ENABLED = $true
 $env:POSH_AZURE_ENABLED = $true
